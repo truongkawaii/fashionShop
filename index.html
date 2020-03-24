@@ -8,6 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://kit.fontawesome.com/528619fbcd.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <!-- link carousel -->
+    <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -120,10 +126,10 @@
                     <div class="col-md-4 col-sm-12">
                         <div class="services__component">
                             <div class="services__card">
-                                <img src="./assets/img/car.png" alt="">
+                                <img src="./assets/img/refes.png" alt="">
                                 <div class="text">
-                                    <p>Shipping Worldwide</p>
-                                    <p>Free on orders over $69.00</p>
+                                    <p>Return Exchange</p>
+                                    <p>21 days free return policy</p>
                                 </div>
                             </div>
                         </div>
@@ -131,10 +137,10 @@
                     <div class="col-md-4 col-sm-12">
                         <div class="services__component">
                             <div class="services__card">
-                                <img src="./assets/img/car.png" alt="">
+                                <img src="./assets/img/headphone.png" alt="">
                                 <div class="text">
-                                    <p>Shipping Worldwide</p>
-                                    <p>Free on orders over $69.00</p>
+                                    <p>Quality Support</p>
+                                    <p>Top notch customer services </p>
                                 </div>
                             </div>
                         </div>
@@ -143,6 +149,384 @@
             </div>
         </div>
     </div>
+    <!-- Style viewer  -->
+    <div class="viewer">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <div class="viewer__component">
+                            <img src="./assets/img/man.png" width="100%" alt="">
+                            <div class="viewer__text">
+                                <h2>Men's SHopping</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <div class="viewer__component">
+                            <img src="./assets/img/women.png" width="100%" alt="">
+                            <div class="viewer__text">
+                                <h2>Women’s Shopping</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <div class="viewer__component">
+                            <img src="./assets/img/man2.png" width="100%" alt="">
+                            <div class="viewer__text">
+                                <h2>Accessories</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- start banner text -->
+    <div class="text-banner">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <p>YOU ABSOLUTELY HAVE IT OR FORGET IT, HUGE SAVING <a href="">UP TO 50%</a> IMMEDIATELY, HURRY UP!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- start hot deal -->
+    <div class="hotdeal">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6  col-sm-12">
+                        <div class="hotdeal__banner">
+                            <img src="./assets/img/shoot.png" width="100%" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-12">
+                        <div class="hotdeal__text text-center">
+
+                            <p>Accessories Product</p>
+                            <h1>Deal Of The Day</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus duzin tempor quis neque vitae, tristique molestie tortor. Cras pellen tesque justo amet</p>
+                            <ul>
+                                <li>19</li>
+                                <li>:</li>
+                                <li>23</li>
+                                <li>:</li>
+                                <li>46</li>
+                                <li>:</li>
+                                <li>50</li>
+                            </ul>
+                            <ul class="day">
+                                <li>- days -</li>
+                                <li>- hours -</li>
+                                <li>- mins -</li>
+                                <li>- secs -</li>
+                            </ul>
+                            <a href="">BUY IT NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- style sell off -->
+    <div class="selloff">
+        <div class="container-fluid">
+            <div class="container">
+                <h2>Selling Off Up 50% In Stock</h2>
+                <div class="selloff__list">
+                    <div class="loop  owl-carousel owl-theme owl-loaded">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage">
+                                <div class="owl-item">
+                                    <div class="slide__card">
+                                        <img src="./assets/img/shirt.png" width="100%" alt="">
+                                        <p>Dragons Garden Print Coat</p>
+                                        <h4>$126.00</h4>
+                                        <a href="">ADD TO CART</a>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="slide__card">
+                                        <img src="./assets/img/sneaker.png" width="100%" alt="">
+                                        <p>Mesh Panelled Tailored Short</p>
+                                        <h4>$99.00</h4>
+                                        <a href="">ADD TO CART</a>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="slide__card">
+                                        <img src="./assets/img/short.png" width="100%" alt="">
+                                        <p>Arthus Crossbody Belt Bag</p>
+                                        <h4>$110.00</h4>
+                                        <a href="">ADD TO CART</a>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="slide__card">
+                                        <img src="./assets/img/bag.png" width="100%" alt="">
+                                        <p>Black Long-Sleeve T-shirt</p>
+                                        <h4>$209.00</h4>
+                                        <a href="">ADD TO CART</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blog -->
+    <div class="blog">
+        <div class="container-fluid">
+            <div class="container">
+                <h2 style="text-align: center;">Last News</h2>
+                <div class="row">
+                    <div class="col-md-4 col-lg-4 col-sm-12">
+                        <div class="blog__card">
+                            <img src="./assets/img/blog1.png" width="100%" alt="">
+                            <h6>June 23 ,2020-Comments</h6>
+                            <h4>Find Your style from Befer</h4>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-sm-12">
+                        <div class="blog__card">
+                            <img src="./assets/img/blog2.png" width="100%" alt="">
+                            <h6>June 23 ,2020-Comments</h6>
+                            <h4>Find Your style from Befer</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-sm-12">
+                        <div class="blog__card">
+                            <img src="./assets/img/blog3.png" width="100%" alt="">
+                            <h6>June 23 ,2020-Comments</h6>
+                            <h4>Find Your style from Befer</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- STyle last content -->
+    <div class="featured">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <!-- featured left -->
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="featured__component">
+                            <div class="featured__title">
+                                <h4>New Arrivals</h4>
+                            </div>
+                            <div class="featured__product">
+                                <div class="featured__card">
+                                    <img src="./assets/img/pd1.png" alt="">
+                                    <div class="featured__card-text">
+                                        <h6>Clothes</h6>
+                                        <p>Mesh Panelled Tailored Short</p>
+                                        <p>$99.00</p>
+                                    </div>
+                                </div>
+                                <!-- card2 -->
+                                <div class="featured__card">
+                                    <img src="./assets/img/pd2.png" alt="">
+                                    <div class="featured__card-text">
+                                        <h6>Shoes</h6>
+                                        <p>Dragons Garden Print Coat</p>
+                                        <p> <del>$139.00</del> $110.00</p>
+                                    </div>
+                                </div>
+                                <!-- card3  -->
+                                <div class="featured__card">
+                                    <img src="./assets/img/pd3.png" alt="">
+                                    <div class="featured__card-text">
+                                        <h6>Sunglasses</h6>
+                                        <p>Arthus Crossbody Belt Bag</p>
+                                        <p>$126.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- featured center -->
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="featured__component">
+                            <div class="featured__title">
+                                <h4>Best Sellers</h4>
+                            </div>
+                            <div class="featured__product">
+                                <div class="featured__card">
+                                    <img src="./assets/img/pd4.png" alt="">
+                                    <div class="featured__card-text">
+                                        <h6>Backpack</h6>
+                                        <p>Black Long-Sleeve T-shirt</p>
+                                        <p>$93.00</p>
+                                    </div>
+                                </div>
+                                <!-- card2 -->
+                                <div class="featured__card">
+                                    <img src="./assets/img/pd5.png" alt="">
+                                    <div class="featured__card-text">
+                                        <h6>Clothes</h6>
+                                        <p>Mesh Panneled Tailored Short</p>
+                                        <p>$114.00</p>
+                                    </div>
+                                </div>
+                                <!-- card3  -->
+                                <div class="featured__card">
+                                    <img src="./assets/img/pd6.png" alt="">
+                                    <div class="featured__card-text">
+                                        <h6>Shoes</h6>
+                                        <p>Mesh Pannelled Tailored Short</p>
+                                        <p>$99.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- featured right -->
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="featured__component">
+                            <div class="featured__title">
+                                <h4>New Arrivals</h4>
+                            </div>
+                            <div class="featured__product">
+                                <div class="featured__card">
+                                    <img src="./assets/img/pd7.png" alt="">
+                                    <div class="featured__card-text">
+                                        <h6>Clothes</h6>
+                                        <p>Mesh Panelled Tailored Short</p>
+                                        <p>$99</p>
+                                    </div>
+                                </div>
+                                <!-- card2 -->
+                                <div class="featured__card">
+                                    <img src="./assets/img/pd8.png" alt="">
+                                    <div class="featured__card-text">
+                                        <h6>Shoes</h6>
+                                        <p>Dragons Garden Print Coat</p>
+                                        <p> <del>$139.00</del> $110.00</p>
+                                    </div>
+                                </div>
+                                <!-- card3  -->
+                                <div class="featured__card">
+                                    <img src="./assets/img/pd9.png" alt="">
+                                    <div class="featured__card-text">
+                                        <h6>Sunglasses</h6>
+                                        <p>Arthus Crossbody Belt Bag</p>
+                                        <p>$126.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- start footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-4">
+                        <div class="footer__content footer__shop">
+                            <h5>Shop</h5>
+                            <ul>
+                                <li>New Arrivals</li>
+                                <li>Sales & Promotion</li>
+                                <li>Women's</li>
+                                <li>Men's</li>
+                                <li>Accessories</li>
+                                <li>Top Brands</li>
+                                <li>Lookbook</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4">
+                        <div class="footer__content">
+                            <h5>Information</h5>
+                            <ul>
+                                <li>Terms & Policies</li>
+                                <li>Help & Support</li>
+                                <li>Disscount Info</li>
+                                <li>Support Center</li>
+                                <li>What We Do ?</li>
+                                <li>Affiliate</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4">
+                        <div class="footer__content">
+                            <h5>Quick Links</h5>
+                            <ul>
+                                <li>Partner Ship</li>
+                                <li>Shipping & Return</li>
+                                <li>Customer Services</li>
+                                <li>Payments?</li>
+                                <li>Advertises</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="footer__right">
+                            <h5>Newsletter Subscription</h5>
+                            <p>Sign up for Befer updates to receive infomation about new arrivals,future events and specials.</p>
+                            <div class="footer__contact">
+                                <input type="text" placeholder="Email@example.com">
+                                <a href="">SUBSCRIBE</a>
+                            </div>
+                            <h4>Follow Us</h4>
+                            <ul class="footer__social">
+                                <li><img src="./assets/img/fb.png" alt=""></li>
+                                <li><img src="./assets/img/twiter.png" alt=""></li>
+                                <li><img src="./assets/img/behance.png" alt=""></li>
+                                <li><img src="./assets/img/insta.png" alt=""></li>
+                                <li><img src="./assets/img/gg.png" alt=""></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <p>Befer store | © 2020 All rights reserved! Designed by JoommasterS</p>
+                    <ul class="payment">
+                        <li><img src="./assets/img/visa.png" alt=""></li>
+                        <li><img src="./assets/img/mster.png" alt=""></li>
+                        <li><img src="./assets/img/paypal.png" alt=""></li>
+                        <li><img src="./assets/img/pay.png" alt=""></li>
+                        <li><img src="./assets/img/visa2.png" alt=""></li>
+                        <li><img src="./assets/img/mster2.png" alt=""></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function() {
+            $('.owl-carousel').owlCarousel();
+        });
+        $('.loop').owlCarousel({
+            center: false,
+            items: 2,
+            loop: true,
+            margin: 20,
+            responsive: {
+                300: {
+                    items: 4
+                }
+            }
+        });
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -181,6 +181,10 @@ header {
 
 /* Style service */
 
+.services {
+    padding-bottom: 5rem;
+}
+
 .services .services__component {
     padding-top: 5rem;
 }
@@ -208,4 +212,333 @@ header {
 .services__card .text p:first-child {
     font-size: 1.13rem;
     font-weight: 600;
+}
+
+
+/* Style viewer */
+
+.viewer {
+    padding-bottom: 5rem;
+}
+
+.viewer__component {
+    position: relative;
+}
+
+.viewer__component .viewer__text {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    display: flex;
+    padding-bottom: 1.8rem;
+}
+
+.viewer__component .viewer__text h2 {
+    margin: auto auto 0 auto;
+    background-color: white;
+    font-size: 1.5rem;
+    padding: 0.4rem 2.2rem;
+}
+
+.text-banner {
+    padding-bottom: 5rem;
+}
+
+.text-banner p {
+    border: 2px dashed #ccc;
+    margin: 0;
+    padding: 1.68rem 0;
+}
+
+
+/* style hotdeal */
+
+.hotdeal {
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hotdeal__banner {
+    padding: 4rem;
+}
+
+.hotdeal .container-fluid {
+    padding: 5rem 0;
+}
+
+.hotdeal .container {
+    background: rgb(255, 255, 255);
+}
+
+.hotdeal__text p,
+.hotdeal__text h1 {
+    margin: 0;
+}
+
+.hotdeal__text h1 {
+    padding: 0.85rem 0 1.5rem 0;
+}
+
+.hotdeal__text {
+    padding: 5rem 0 0 0;
+}
+
+.hotdeal__text p:first-child {
+    font-size: 0.93rem;
+}
+
+.hotdeal__text p:last-child {
+    font-size: 0.86rem;
+}
+
+.hotdeal__text ul {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.hotdeal__text ul {
+    margin: 0;
+}
+
+.hotdeal__text ul li {
+    padding: 0 0.86rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hotdeal__text .day {
+    padding-bottom: 3rem;
+}
+
+.hotdeal__text .day li {
+    font-size: 0.86rem;
+    font-weight: 400;
+    color: rgb(148, 141, 141);
+    padding: 0 1.8rem;
+}
+
+.hotdeal__text a {
+    color: white;
+    padding: 1.3rem 2rem;
+    font-size: 0.93rem;
+    border-radius: 0.1rem;
+    background-color: rgb(46, 43, 43);
+}
+
+
+/* style selloff */
+
+.selloff {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.selloff h2 {
+    padding-bottom: 3rem;
+}
+
+.selloff p {
+    font-size: 1rem;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.selloff h4 {
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+}
+
+.selloff a {
+    white-space: nowrap;
+    font-size: 0.86rem;
+    margin: 0;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.58rem 1.5rem;
+    background-color: rgb(44, 42, 42);
+}
+
+
+/* style blog */
+
+.blog {
+    padding: 6rem 0 4.4rem 0;
+}
+
+.blog h2 {
+    padding: 2.4rem 0;
+}
+
+.blog h6 {
+    padding: 1.2rem 0;
+    font-size: 0.86rem;
+}
+
+.blog h4 {
+    font-size: 1.25rem;
+}
+
+.blog h4,
+.blog h6 {
+    margin: 0;
+}
+
+
+/* style featured */
+
+.featured {
+    padding: 5rem 0 4.1rem 0;
+    background: #f4f4f4;
+}
+
+.featured .featured__component .featured__title {
+    border-bottom: 1px solid #000;
+}
+
+.featured .featured__component .featured__title h4 {
+    font-size: 1.38rem;
+}
+
+.featured .featured__component .featured__card {
+    display: flex;
+}
+
+.featured .featured__component .featured__product {
+    padding-top: 0.8rem;
+}
+
+.featured .featured__component .featured__card {
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
+    border-bottom: 1px dashed #d7d7d7;
+}
+
+.featured .featured__component .featured__card .featured__card-text {
+    padding: 1.2rem 0 0 1.2rem;
+}
+
+.featured .featured__component .featured__card .featured__card-text h6 {
+    margin: 0;
+    color: #555555;
+    padding-bottom: 0.65rem;
+    font-size: 0.86rem;
+}
+
+.featured .featured__component .featured__card .featured__card-text p {
+    margin: 0;
+    font-size: 1rem;
+    padding-bottom: 0.3rem;
+}
+
+.featured .featured__component .featured__card .featured__card-text del {
+    color: rgb(179, 177, 175);
+    font-weight: 500;
+}
+
+.featured .featured__component .featured__card .featured__card-text p:last-child {
+    font-size: 1.05rem;
+    padding: 0;
+    font-weight: 600;
+}
+
+.featured .featured__component .featured__card:last-child {
+    border: none;
+}
+
+
+/* style footer */
+
+footer {
+    background: #000;
+    padding-top: 5rem;
+}
+
+footer h5 {
+    font-size: 1.1rem;
+    color: white;
+    padding-bottom: 1.45rem;
+    margin: 0;
+}
+
+footer .footer__content ul li {
+    color: #989898;
+    padding: 0.44rem 0;
+    font-size: 0.86rem;
+    margin: 0;
+}
+
+footer .footer__right h5 {
+    padding-bottom: 1.6rem;
+}
+
+footer .footer__right p {
+    color: #989898;
+    margin: 0;
+    font-size: 0.86rem;
+    padding: 0 0 1.1rem 0;
+}
+
+footer .footer__right h4 {
+    margin: 0;
+    padding: 3rem 0 1.5rem 0;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.footer__social {
+    display: flex;
+}
+
+footer .footer__right .footer__contact {
+    display: flex;
+    align-items: center;
+}
+
+footer .footer__right .footer__contact input {
+    padding: 0.76rem 0 0.76rem 1rem;
+    font-size: 0.86rem;
+    flex: 1;
+    background: transparent;
+    font-style: italic;
+    outline: none;
+    color: #989898;
+    border: 1px solid rgb(82, 80, 80);
+}
+
+footer .footer__right .footer__contact a {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    padding: 0.83rem 1.3rem 0.83rem 1.3rem;
+    font-size: 0.86rem;
+}
+
+footer .footer__right .footer__social li {
+    padding-right: 0.8rem;
+}
+
+footer hr {
+    color: white;
+}
+
+footer .row:first-child {
+    padding-bottom: 3.4rem;
+    border-bottom: 1px solid #222222;
+}
+
+.footer__bottom .payment {
+    display: flex;
+    margin: 0;
+    padding: 1.8rem 0;
+}
+
+.footer__bottom p {
+    margin: 0;
+    padding-top: 1.45rem;
 }
