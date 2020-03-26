@@ -5,6 +5,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.fixed {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 2px 2px 3px rgb(138, 131, 131);
+}
+
+.fixed .listmenu .listmenu-item {
+    justify-content: space-between;
+    align-items: center;
+}
+
 @media (min-width:1200px) {
     .container {
         min-width: 1225px !important;
@@ -127,7 +140,8 @@ header {
     align-items: center;
 }
 
-.menu .listmenu .listmenu-item {
+
+/* .menu .listmenu .listmenu-item {
     display: flex;
 }
 
@@ -136,7 +150,7 @@ header {
     font-size: 0.88rem;
     color: black;
     font-weight: 600;
-}
+} */
 
 .slideshow .container-fluid {
     padding: 0 !important;
@@ -541,4 +555,55 @@ footer .row:first-child {
 .footer__bottom p {
     margin: 0;
     padding-top: 1.45rem;
+}
+
+.payment li {
+    padding-right: 1.1rem;
+}
+
+@media (max-width:991px) {
+    html {
+        font-size: 80%;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .slideshow .banner__text h1 {
+        font-size: 2rem;
+    }
+    .container-fluid {
+        overflow-x: hidden;
+    }
+    .menu {
+        display: block;
+    }
+}
+
+.nav-item {
+    white-space: nowrap;
+}
+
+.nav-item a {
+    color: black !important;
+    font-weight: bold;
+    font-size: 0.93rem;
+    padding: 1rem 1.2rem !important;
+}
+
+.nav-item a:hover {
+    background-color: cornflowerblue;
+}
+
+@media (max-width:767px) {
+    html {
+        font-size: 60%;
+    }
+    .nav-item a {
+        border-bottom: 1px solid rgb(139, 135, 135);
+        width: 50%;
+        padding: 1.5rem 1.2rem !important;
+    }
+    .slideshow .banner__text h1 {
+        font-size: 1.5rem;
+    }
 }
